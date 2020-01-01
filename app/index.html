@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Scientist App</title>
+    <meta name="author" content="Evan H.">
+    <meta name="description" content="...">
+    <meta name="keywords" content="">
+    <meta name="theme-color" content="#000000">
+      
+    {{content-for "head"}}
+    <!-- Pure CSS -->  
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous"> 
+    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css">
+    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/ember-app.css">
+    <!-- Google Fonts - Nanum Myeongjo -->  
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/favicon.ico"> 
+    <!-- apple-touch Icon--> 
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon-60x60.png">   
+
+    {{content-for "head-footer"}}
+  </head>
+  <body>
+    {{content-for "body"}}
+
+    <script src="{{rootURL}}assets/vendor.js"></script>
+    <script src="{{rootURL}}assets/ember-app.js"></script>
+
+    {{content-for "body-footer"}}
+  </body>
+</html>

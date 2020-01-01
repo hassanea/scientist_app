@@ -1,0 +1,7 @@
+<h2>{{@title}}</h2>
+<ul class="list-view">
+  {{#each @scientists as |scientist|}}
+    <li><button class="pure-button btn" {{action "showScientist" scientist}}><span class="mg-r"><FaIcon @icon="atom" @size="2x" @spin={{true}} /></span>{{scientist.name}}</button></li>
+  {{/each}}
+</ul>
+{{yield}}

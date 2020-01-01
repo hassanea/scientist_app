@@ -1,0 +1,94 @@
+html, body {
+    
+}
+
+body {
+    font-size: 1.25rem;
+    font-family: 'Nanum Myeongjo', serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3ba900;
+  position: fixed;
+  top: 0;
+  width: 100%;    
+}
+
+.mg-b {
+   margin-bottom: 100px;   
+}
+
+.mg-r {
+    margin-right: 16px;
+}
+
+.nav-logo img {
+    width: 30px;
+    height: 65px;
+    border-radius: 25x;
+}
+
+.nav li {
+  float: left;
+}
+
+.nav-item {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+.nav-item:last-child {
+  border-right: none;
+}
+
+.nav-item a {
+  display: block;
+  color: aliceblue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-item a:hover:not(.active) {
+  background-color: #00ff00;
+  color: #aaa;
+  font-weight: 800;
+}
+
+.list-view {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style the list items */
+.list-view li {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+  position: relative;
+}
+
+/* Add a light grey background color on hover */
+.list-view li:hover {
+  background-color: #eee;
+}
+
+.btn {
+    display: flex;
+    margin: auto;
+    border: 2px gold solid;
+    padding: 20px;
+}
