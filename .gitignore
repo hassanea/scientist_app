@@ -7,7 +7,7 @@
 # dependencies
 /bower_components/
 /node_modules/
-
+server/node_modules/
 # misc
 /.env*
 /.pnp*
